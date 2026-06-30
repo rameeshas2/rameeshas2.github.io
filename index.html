@@ -1,10 +1,273 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rameesha Shahid | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="porto.css" />
 </head>
 <body>
-    <h1>This is my Github Website</h1>
+
+  <!-- ===== HERO SECTION ===== -->
+  <header>
+    <div class="hero-bg-glow"></div>
+    <div class="hero-content">
+      <p class="hero-sub">BS Software Engineering · Final Year</p>
+      <h1 class="glow">Rameesha Shahid</h1>
+      <div class="underline"></div>
+      <p class="hero-tagline">Software Engineer specializing in Intelligent Data Pipelines, Computer Vision Frameworks, and Secure Architectures.</p>
+      <div class="hero-links">
+        <a href="#portfolio" class="btn btn-primary">View My Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== ACADEMIC EXCELLENCE & METRICS ===== -->
+  <section id="about">
+    <div class="container">
+      <h2>Academic Profile & Honors</h2>
+      <p class="section-desc">Validating theoretical core competencies through national benchmarks.</p>
+      
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <h3>3.83</h3>
+          <p>Cumulative CGPA</p>
+        </div>
+        <div class="metric-card">
+          <h3>1st Position</h3>
+          <p>HEC NSCT Batch Rank</p>
+        </div>
+        <div class="metric-card">
+          <h3>96.7th</h3>
+          <p>National Percentile</p>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <p>
+          Hi, I'm <strong>Rameesha</strong> — a Software Engineering student at the <strong>University of Lahore</strong>. Ranked in the top 3.3% of IT graduates nationwide across Pakistan, I blend disciplined back-end logic with beautiful, modern interface designs. I am passionate about constructing intuitive systems that make complex technical processing feel effortless and elegant.
+        </p>
+      </div>
+    </div>
+  </section>
+
+ <!-- ===== PORTFOLIO GRID ===== -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Featured Engineering Portfolio</h2>
+      <p class="section-desc">A collection of my web applications, deep learning projects, and technical systems.</p>
+
+      <div class="project-grid">
+
+        <!-- 1. FINAL YEAR PROJECT -->
+        <div class="project-card" data-category="ai">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag tag-flagship">Flagship Capstone Project</span>
+            <h3>AI Smart Glasses & Hand Tracking</h3>
+            <p>AI-powered smart glasses for real-time text translation, object detection, building identification, and hand gesture control using computer vision models.</p>
+            <div class="project-tech">Python · YOLOv8 · MediaPipe · OpenCV · EasyOCR · NumPy</div>
+          </div>
+        </div>
+
+        <!-- 3. FLOWER CLASSIFICATION -->
+        <div class="project-card" data-category="ai">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Deep Learning</span>
+            <h3>Flower Classification CNN (ResNet18)</h3>
+            <p>Flower image classification using CNN and PyTorch with Transfer Learning. Includes model training and a Streamlit web app for real-time predictions.</p>
+            <div class="project-tech">PyTorch · Python · ResNet18 · Streamlit · Computer Vision</div>
+          </div>
+        </div>
+        
+        <!-- 8. COMMERCE AUCTION PLATFORM -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Full-Stack Django</span>
+            <h3>Commerce Auction Platform</h3>
+            <p>An online auction website built with Django where users can create auction listings, place bids, comment on items, and manage personal watchlists.</p>
+            <div class="project-tech">Django · Python · SQLite · Relational Database Systems</div>
+          </div>
+        </div>
+
+        <!-- 5. PENETRATION TESTING LAB -->
+        <div class="project-card" data-category="security">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Cybersecurity</span>
+            <h3>Enterprise Vulnerability Assessment Lab</h3>
+            <p>A cybersecurity lab built with Kali Linux, Docker, and Greenbone GVM (OpenVAS) to scan containerized targets and systems for security vulnerabilities.</p>
+            <div class="project-tech">Kali Linux · Greenbone GVM (OpenVAS) · Docker · Core WordPress</div>
+          </div>
+        </div>
+
+        <!-- 6. STUDYTASK ANDROID APP -->
+        <div class="project-card" data-category="mobile">
+          <div class="card-glow"></div>
+  ---
+          <div class="project-content">
+            <span class="project-tag">Mobile Frameworks</span>
+            <h3>StudyTask Android Application</h3>
+            <p>A student task management app built with Java and Android SDK. Uses Firebase Authentication for users and Cloud Firestore for live database synchronization.</p>
+            <div class="project-tech">Java · Android SDK · Firebase Auth · Cloud Firestore · Material Design 3</div>
+          </div>
+        </div>
+
+        <!-- 7. DJANGO MAIL CLIENT -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Web Platforms</span>
+            <h3>Django Asynchronous Mail Client</h3>
+            <p>A single-page email client built with Django and JavaScript. Supports composing, viewing, archiving, and replying to messages dynamically without page reloads.</p>
+            <div class="project-tech">Django · Python · JavaScript (ES6) · Fetch API · Async Routing</div>
+          </div>
+        </div>
+
+
+        <!-- 9. WIKI ENCYCLOPEDIA PLATFORM -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Web Platforms</span>
+            <h3>Wiki Encyclopedia Platform</h3>
+            <p>A Wikipedia-style web application built with Django and Python. Allows users to search, create, and edit encyclopedia entries using Markdown formatting.</p>
+            <div class="project-tech">Python · Django · Markdown Parsing · Client-Side Rendering</div>
+          </div>
+        </div>
+
+        <!-- 10. MENTAL HEALTH PREDICTION -->
+        <div class="project-card" data-category="ai">
+          <div class="card-glow"></div>
+          <div class="project-content">
+           <span class="project-tag">Data Science</span>
+            <h3>Mental Health Prediction ML Analysis</h3>
+            <p>Machine learning project that predicts workplace mental health treatment requirements using Python. Includes data cleaning, visual exploration, and model evaluation.</p>
+            <div class="project-tech">Python · Scikit-Learn · Pandas · NumPy · Classification Pipelines</div>
+          </div>
+        </div>
+
+        <!-- 11. PETROL PUMP MANAGEMENT -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Enterprise Software</span>
+            <h3>Petrol Pump Management System</h3>
+            <p>A business automation platform built with Laravel and PHP to manage gas station inventory, fuel sales, supplier logs, and employee tracking data.</p>
+            <div class="project-tech">PHP · MySQL · Laravel · Bootstrap · Business Logic</div>
+          </div>
+        </div>
+
+        <!-- 12. MEDICINE INVENTORY SYSTEM -->
+        <div class="project-card" data-category="systems">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Object-Oriented Design</span>
+            <h3>Medicine Inventory Management System</h3>
+            <p>A medicine inventory management system built in C++ using core Object-Oriented Programming (OOP) principles, data encapsulation, and persistent file handling.</p>
+            <div class="project-tech">C++ · Object-Oriented Programming · File Stream Handling</div>
+          </div>
+        </div>
+
+        <!-- 13. HOSPITAL MANAGEMENT SYSTEM -->
+        <div class="project-card" data-category="systems">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Object-Oriented Design</span>
+            <h3>Hospital Management System</h3>
+            <p>A healthcare administration application built with C++ and file streams to manage doctor registries, patient records, and real-time bed allocations.</p>
+            <div class="project-tech">C++ · Structural Paradigms · File Streams · Console UI</div>
+          </div>
+        </div>
+
+        <!-- 14. GOOGLE CLONE -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Front-End Interface</span>
+            <h3>Google Search Front-End Clone</h3>
+            <p>A responsive front-end clone of Google Search, Image Search, and Advanced Search built with fluid grids to match typographic weights and layouts.</p>
+            <div class="project-tech">HTML5 · CSS3 · Bootstrap Layouts · Responsive Design</div>
+          </div>
+        </div>
+
+        <!-- 15. CLEAR SPECTRUM CASE STUDY -->
+        <div class="project-card" data-category="design">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Accessibility Design</span>
+            <h3>Clear Spectrum Autism Support App</h3>
+            <p>A high-fidelity UI/UX case study for a mobile autism support app designed in Figma using WCAG accessibility metrics and user-centered design principles.</p>
+            <div class="project-tech">Figma · Accessibility Standards · Prototyping · HCI Research</div>
+          </div>
+        </div>
+
+        <!-- 2. FIORELLA BEAUTY -->
+        <div class="project-card" data-category="web">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag tag-premium">Premium Web Live</span>
+            <h3>Fiorella Beauty E-Commerce Website</h3>
+            <p>A responsive beauty and skincare e-commerce website featuring smooth front-end animations, fluid layouts, and clean user interfaces.</p>
+            <div class="project-tech">Wix Studio · UI / UX</div>
+          </div>
+        </div>
+        
+        <!-- 4. FREESTANDING KERNEL -->
+        <div class="project-card" data-category="systems">
+          <div class="card-glow"></div>
+          <div class="project-content">
+            <span class="project-tag">Systems Engineering</span>
+            <h3>Freestanding Minimal OS Kernel ("KOS")</h3>
+            <p>A lightweight bare-metal operating system kernel built for low-power IoT devices. Features basic x86 Assembly bootstrapping, hardware timers, and task switching.</p>
+            <div class="project-tech">C · Assembly (x86) · Freestanding Compilers · Hardware Timers</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <p class="section-desc">Open for strategic opportunities, internships, and technical engineering discussions.</p>
+      
+      <form class="glass-form" onsubmit="event.preventDefault();">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="rameeshasahid2@gmail.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Let's build something beautiful..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2026 Rameesha Shahid. Tailored with elegance and technical precision.</p>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/rameesha-shahid2/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/rameeshas2" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
 </body>
 </html>
